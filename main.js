@@ -14,7 +14,7 @@ let i = 0;
 // Let's write a function called `getAttackDamage` that takes in a minimum and a maximum and returns a random value between those values.
 
 
-// This will run whenever they click "Fight" and be where everything will happen.
+// This function will run whenever they click "Fight" and be where everything will happen.
 function attackRound() {
   // Grab our current monster.
   const monster = monsters[i];
