@@ -12,7 +12,11 @@ while (monsters.length < 5) {
 let i = 0;
 
 // Let's write a function called `getAttackDamage` that takes in a minimum and a maximum and returns a random value between those values.
-
+function getAttackDamage(min, max) {
+  let min = 1;
+  let max = 10;
+  Math.floor(Math.random() * 10) + 1;
+}
 
 // This function will run whenever they click "Fight" and be where everything will happen.
 function attackRound() {
